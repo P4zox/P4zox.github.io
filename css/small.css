@@ -6,10 +6,10 @@
     "Helvetica Neue", sans-serif;
     --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
 
-    --header-bg: #d19696;
+    --header-bg: #4e4e4e;
     --bg: white;
-    --nav: #b99797;
-    --box-bg:#d8bebe;
+    --nav: #ffffff;
+    --box-bg:#4e4e4e;
     --text: #dcdcdc;
     --text-light: #ababab;
     --border: #666;
@@ -17,8 +17,8 @@
     --image_border_px: 2px;
     --image_width: 100px;
     --image_height: 100px;
-    --title-text: rgb(212, 91, 91);
-    --description-text: rgb(161, 120, 120);
+    --title-text: rgb(128, 128, 128);
+    --description-text: rgb(247, 247, 247);
 
 }
 
@@ -124,8 +124,8 @@ nav a, nav a:visited {
 }
 
 nav a:hover{
-    color: #ffb300;
-    border-color: #ffb300;
+    color: #ede1c4;
+    border-color: #ede1c4;
 }
 
 .content{
