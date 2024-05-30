@@ -19,6 +19,7 @@
     --image_height: 100px;
     --title-text: rgb(128, 128, 128);
     --description-text: rgb(247, 247, 247);
+    --description-text-font: 14px;
 
 }
 
@@ -167,4 +168,10 @@ strong{
 .description{
     color: var(--description-text);
     overflow: auto;
+    font-size: var(--description-text-font);
+    padding: 25px;
+}
+
+.profile_pic{
+    height: 600px;
 }
