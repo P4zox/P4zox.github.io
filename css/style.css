@@ -3,7 +3,7 @@
     --font_family: 'Inter', sans-serif; /* 整個設計的字體 */
     --font_size: 16px; /* 基礎字體大小 */
     --background_color: #000; /* 預設背景顏色 */
-    --background_image: url("../img/wallpaper.png"); /* 背景圖片 */
+    --background_image: url("../img/bg.png"); /* 背景圖片 */
     --image_border_color: #000; /* 圖片邊框顏色 */
     --image_border_px: 3px; /* 圖片邊框厚度 */
     --image_width: 200px; /* 圖片寬度 */
@@ -12,9 +12,9 @@
     --description_color: #4e4e4e; /* 描述文字顏色 */
     --svg_color: #4e4e4e; /* SVG 圖標顏色 */
     --menu_background_color: transparent; /* 導航菜單背景顏色 */
-    --menu_text_color: #666; /* 導航菜單文字顏色 */
+    --menu_text_color: #555; /* 導航菜單文字顏色 */
     --menu_active_text_color: #fff; /* 導航菜單活動狀態時的文字顏色 */
-    --menu_border_color: #666; /* 導航菜單邊框顏色 */
+    --menu_border_color: #555; /* 導航菜單邊框顏色 */
     --menu_border_px: 3px; /* 導航菜單邊框厚度 */
     --footer_background_color: #4e4e4e; /* 頁腳背景顏色 */
     --footer_text_color: #fff; /* 頁腳文字顏色 */
@@ -26,7 +26,8 @@ body {
     font: var(--font_size) var(--font_family); /* 使用變數設定字體和大小 */
     font-weight: 400; /* 字體粗細 */
     line-height: 1.5; /* 行高 */
-    background: linear-gradient(#bdbdbd, white) no-repeat center; /* 設定背景顏色和圖片 */
+    background-image: url("../img/bg.png");
+    background-attachment: fixed; /* 設定背景顏色和圖片 */
     min-height: 100vh; /* 最小高度為視窗的高度 */
     display: flex; /* 使用Flexbox布局 */
     flex-direction: column; /* 子元素垂直排列 */
