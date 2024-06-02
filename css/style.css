@@ -27,12 +27,25 @@ body {
     font-weight: 400; /* 字體粗細 */
     line-height: 1.5; /* 行高 */
     background-image: url("../img/bg.png");
-    background-attachment: fixed; /* 設定背景顏色和圖片 */
+    background-attachment: scroll; /* 設定背景顏色和圖片 */
     min-height: 100vh; /* 最小高度為視窗的高度 */
     display: flex; /* 使用Flexbox布局 */
     flex-direction: column; /* 子元素垂直排列 */
     flex-wrap: wrap; /* 允許子元素換行 */
 }
+
+@keyframes example {
+    0%   {top:1000px;}
+    50%  { top:200px;}
+    100% {top:0px;}
+}
+.cover{
+    animation-name: example;
+    animation-duration: 2s;
+    position:relative;
+}
+
+
 
   /* Flexbox 布局的基本設定 */
 .flex_column_center {
